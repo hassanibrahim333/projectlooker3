@@ -19,7 +19,7 @@ view: distribution_centers {
     sql: ${TABLE}.latitude ;;
   }
 
-  dimension: location {
+  dimension: locations {
     type: location
     sql_latitude: ${latitude} ;;
     sql_longitude: ${longitude} ;;
